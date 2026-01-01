@@ -1,0 +1,76 @@
+Repository      : extra
+Name            : gstreamer
+Version         : 1.26.9-1
+Description     : Multimedia graph framework - core
+Architecture    : x86_64
+URL             : https://gstreamer.freedesktop.org/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs  glib2  glibc  libcap  libelf  libunwind
+Optional Deps   : python: gst-plugins-doc-cache-generator
+Conflicts With  : None
+Replaces        : None
+Download Size   : 2.02 MiB
+Installed Size  : 11.42 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Mon 01 Dec 2025 11:03:29 PM SAST
+Validated By    : SHA-256 Sum  Signature
+
+Repository      : extra
+Name            : gst-plugins-base-libs
+Version         : 1.26.9-1
+Description     : Multimedia graph framework - base
+Architecture    : x86_64
+URL             : https://gstreamer.freedesktop.org/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : None
+Depends On      : gstreamer=1.26.9-1  glib2  glibc  graphene  iso-codes  libdrm  libglvnd  libgudev  libjpeg-turbo  libpng  libx11  libxcb  libxext  libxi  libxv  mesa  orc  wayland  zlib
+Optional Deps   : None
+Conflicts With  : None
+Replaces        : None
+Download Size   : 2.35 MiB
+Installed Size  : 12.43 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Mon 01 Dec 2025 11:03:29 PM SAST
+Validated By    : SHA-256 Sum  Signature
+
+Repository      : extra
+Name            : gst-plugins-bad-libs
+Version         : 1.26.9-1
+Description     : Multimedia graph framework - bad
+Architecture    : x86_64
+URL             : https://gstreamer.freedesktop.org/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : None
+Depends On      : gst-plugins-base-libs=1.26.9-1  gstreamer=1.26.9-1  gcc-libs  glib2  glibc  libdrm  libglvnd  libgudev  libnice  libusb  libva  libx11  libxcb  libxkbcommon  libxkbcommon-x11  mesa  orc  vulkan-icd-loader  wayland  zlib
+Optional Deps   : None
+Conflicts With  : None
+Replaces        : None
+Download Size   : 2.86 MiB
+Installed Size  : 12.56 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Mon 01 Dec 2025 11:03:29 PM SAST
+Validated By    : SHA-256 Sum  Signature
+
+Repository      : extra
+Name            : gst-plugin-gtk
+Version         : 1.26.9-1
+Description     : Multimedia graph framework - gtk plugin
+Architecture    : x86_64
+URL             : https://gstreamer.freedesktop.org/
+Licenses        : LGPL-2.1-or-later
+Groups          : None
+Provides        : None
+Depends On      : gst-plugins-bad-libs=1.26.9-1  gst-plugins-base-libs=1.26.9-1  gstreamer=1.26.9-1  cairo  glib2  glibc  gtk3  wayland
+Optional Deps   : None
+Conflicts With  : None
+Replaces        : None
+Download Size   : 36.22 KiB
+Installed Size  : 108.12 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Mon 01 Dec 2025 11:03:29 PM SAST
+Validated By    : SHA-256 Sum  Signature
+
