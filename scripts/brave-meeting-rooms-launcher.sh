@@ -33,5 +33,6 @@ if [ -n "$CHOICE" ]; then
     # Launch browser in App mode
     # The --app flag forces the browser to open the URL without address bars/tabs
      # omarchy-launch-webapp $URL & disown
-    $BROWSER --app="$URL" & disown
+    #$BROWSER --app="$URL" & disown
+    omarchy-launch-webapp $URL --detach
 fi
